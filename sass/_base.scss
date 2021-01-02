@@ -1,0 +1,35 @@
+:root {
+	--color-grey-1: #2e323f;
+	--color-grey-2: #3b4050;
+	--color-grey-3: #6f737f;
+	--color-white: #fff;
+	--color-brown: #a59678;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body,
+html {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%;
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+img {
+	max-width: 100%;
+}
